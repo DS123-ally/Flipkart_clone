@@ -122,9 +122,6 @@ body {
     border: 1px solid #ccc;
 }
 
-
-/* Banner Carousel */
-
 .banner-carousel {
     max-width: 100%;
     position: relative;
@@ -147,10 +144,6 @@ body {
 .main-banner img.active-banner {
     display: block;
 }
-
-
-/* Thumbnail buttons */
-
 .banner-thumbnails {
     display: flex;
     justify-content: center;
@@ -170,29 +163,18 @@ body {
 .thumb:hover {
     background-color: #2874f0;
 }
-
-
-/* Section Titles */
-
 .section-title {
     margin: 30px 0 10px;
     font-size: 20px;
     color: #ff5722;
     font-weight: bold;
 }
-
-
-/* Product Grid */
-
 .product-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 15px;
     margin-top: 10px;
 }
-
-
-/* Product Card */
 
 .product-card {
     background: #fff;
@@ -248,10 +230,6 @@ body {
 .product-card button:hover {
     background-color: #ff8000;
 }
-
-
-/* Footer */
-
 .footer {
     background-color: #172337;
     color: #ccc;
@@ -259,9 +237,6 @@ body {
     padding: 20px;
     margin-top: 40px;
 }
-
-
-/* Animations */
 
 @keyframes fadeIn {
     from {
@@ -273,10 +248,6 @@ body {
         transform: translateY(0);
     }
 }
-
-
-/* Responsive Design */
-
 @media (max-width: 768px) {
     .sidebar {
         display: none;
