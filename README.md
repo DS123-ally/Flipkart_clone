@@ -12,7 +12,7 @@ This is a **frontend-only clone** of the Men's Fashion section of Flipkart, crea
 - 📱 Responsive-friendly layout (basic)
 
 ## 📸 Screenshots
-![image alt]()
+![image alt](https://github.com/DS123-ally/Flipkart_clone/blob/d666f1dde015215d79f3f71cb8c7546574aa7867/Screenshot%202025-07-04%20212323.png)
 
 > You can replace `screenshot.png` with a real screenshot of your project.
 
