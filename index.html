@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flipkart Clone</title>
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <img src="flipkart.png" alt="Flipkart " class="flipkart-logo " />Flipkart
+        </div>
+
+        <div class="search-bar ">
+            <input type="text " placeholder="Search for products, brands and more " />
+            <button>Search</button>
+        </div>
+        <nav class="nav-links">
+            <a href="#"><i class="fas fa-user"></i> Login</a>
+            <a href="#"><i class="fas fa-store"></i> Become a Seller</a>
+            <a href="#"><i class="fas fa-ellipsis-h"></i> More</a>
+            <a href="#"><i class="fas fa-shopping-cart"></i> Cart</a>
+        </nav>
+
+    </header>
+
+    <aside class="sidebar ">
+        <ul>
+            <li><a href="electronics.html"><i class="fas fa-tv"></i> Electronics</a></li>
+            <li><a href="household.html"><i class="fas fa-broom"></i> Household</a></li>
+            <li><a href="men.html"><i class="fas fa-male"></i> Men</a></li>
+            <li><a href="women.html"><i class="fas fa-female"></i> Women</a></li>
+            <li><a href="bestseller.html"><i class="fas fa-star"></i> Best Seller</a></li>
+        </ul>
+
+    </aside>
+
+
+    <main class="main-content ">
+        <div class="category-filter ">
+            <label for="categorySelect ">Choose Category:</label>
+            <select id="categorySelect " onchange="handleCategoryChange(this) ">
+              <option value=" ">-- Select --</option>
+              <option value="household.html ">household</option>
+              <option value="electronics.html ">Electronics</option>
+              <option value="men.html ">Men</option>
+              <option value="women.html ">Women</option>
+            </select>
+        </div>
+
+        <!-- Banner -->
+        <section class="banner-carousel">
+            <div class="main-banner">
+                <img src="banner1.png" alt="Banner 1" class="active-banner" />
+                <img src="banner2.png" alt="Banner 2" />
+                <img src="banner3.png" alt="Banner 3" />
+            </div>
+
+            <div class="banner-thumbnails">
+                <div class="thumb" data-index="0"></div>
+                <div class="thumb" data-index="1"></div>
+                <div class="thumb" data-index="2"></div>
+            </div>
+        </section>
+
+        <!-- Deals of the Day -->
+        <h2 class="section-title ">Deals of the Day</h2>
+        <section class="product-grid ">
+            <div class="product-card ">
+                <img src="Redmi 13C (6GB RAM).png " alt="" />
+                <h3>Redmi 13C (6GB RAM)</h3>
+                <p>₹7,999 <span class="old-price ">₹9,999</span></p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="bluetooth Speaker.png" alt="Bluetooth Speaker" />
+                <h3>BlueTooth Speaker</h3>
+                <p>₹2,499</p>
+                <button>Add to Cart</button>
+            </div>
+
+        </section>
+
+        <!-- Top Offers -->
+        <h2 class="section-title ">Top Offers</h2>
+        <section class="product-grid ">
+            <div class="product-card ">
+                <img src="Decorative Table Lamp.png " alt=" " />
+                <h3>Decorative Table Lamp</h3>
+                <p>₹699 <span class="old-price ">₹1,299</span></p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card ">
+                <img src="Skybags Backpack 30L.png " alt="" />
+                <h3>Skybags Backpack 30L</h3>
+                <p>₹1,199 <span class="old-price ">₹1,999</span></p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card ">
+                <img src="Men's Checked Shirt.png " alt="t" />
+                <h3>Men's Checked Shirt</h3>
+                <p>₹499 <span class="old-price">₹1,099</span></p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="Wooden Queen Bed.png" alt="Wooden Bed" />
+                <h3>Wooden Queen Bed</h3>
+                <p>₹8,999 <span class="old-price">₹13,499</span></p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="Fabric Sofa.png" alt="Sofa Set" />
+                <h3>3-Seater Fabric Sofa</h3>
+                <p>₹12,999 <span class="old-price">₹18,999</span></p>
+                <button>Add to Cart</button>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        © 2025 Flipkart Clone | Design By Dinesh
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
