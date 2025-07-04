@@ -1,4 +1,5 @@
-# 👔 Flipkart Clone – Men's Fashion Page
+# 👔 Flipkart Clone 
+
 
 This is a **frontend-only clone** of the Men's Fashion section of Flipkart, created using HTML,CSS AND JAVASCRIPT. The page features a responsive layout, product cards, banner advertisements, and a basic navbar — all styled to resemble the Flipkart brand.
 
